@@ -23,7 +23,7 @@ onMounted(fetchData);
             <simple-carousel>
                 <div
                     v-for="item in data"
-                    :key="data.id"
+                    :key="item.id"
                     class="rounded-2xl relative w-44 shadow">
                     <img
                         :src="item.image"
